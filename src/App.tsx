@@ -42,7 +42,7 @@ function App() {
                 <div className="results-number">112 results</div>
               </div>
               <div className="search-dropdown-container">
-                <TagsDropdown tags={tags} setTags={setTags}></TagsDropdown>
+                <TagsDropdown setTags={setTags}></TagsDropdown>
               </div>
             </div>
 

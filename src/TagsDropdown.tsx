@@ -4,11 +4,10 @@ import { useState } from "react";
 import { TagOptions } from "./models";
 
 interface tagsProps {
-  tags: TagOptions;
   setTags: React.Dispatch<React.SetStateAction<TagOptions>>;
 }
 
-function TagsDropdown({tags, setTags} : tagsProps) {
+function TagsDropdown({setTags} : tagsProps) {
   const [enableCheckbox, setEnableCheckbox] = useState(true);
   const [salaryCheckBox, setSalaryCheckBox] = useState(true);
   const [experienceCheckbox, setExperienceCheckbox] = useState(true);
