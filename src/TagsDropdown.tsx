@@ -10,9 +10,9 @@ interface tagsProps {
 function TagsDropdown({setTags} : tagsProps) {
   const [enableCheckbox, setEnableCheckbox] = useState(true);
   const [salaryCheckBox, setSalaryCheckBox] = useState(true);
-  const [experienceCheckbox, setExperienceCheckbox] = useState(true);
-  const [typeCheckbox, setTypeCheckbox] = useState(true);
-  const [remoteCheckbox, setRemoteCheckbox] = useState(true);
+  const [experienceCheckbox, setExperienceCheckbox] = useState(false);
+  const [typeCheckbox, setTypeCheckbox] = useState(false);
+  const [remoteCheckbox, setRemoteCheckbox] = useState(false);
   const [benefitsCheckbox, setBenefitsCheckbox] = useState(false);
   const [skillsCheckbox, setSkillsCheckbox] = useState(false);
 

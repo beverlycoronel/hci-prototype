@@ -13,6 +13,9 @@ export interface Job {
     skills: string,
     alumni: number,
     distance: number,
-    image: string
+    image: string,
+    benefits: string,
+    company1: string,
+    company2: string,
 
 }

@@ -13,7 +13,7 @@ function App() {
   const jobs = postings.postings as Job[];
   const [currJob, setCurrJob] = useState(jobs[0]);
   const [selected, setSelected] = useState(0);
-  const [tags, setTags] = useState<TagOptions>({salary: true, experience: true, type: true, remote: true, benefits: false, skills: false});
+  const [tags, setTags] = useState<TagOptions>({salary: true, experience: false, type: false, remote: false, benefits: false, skills: false});
   const handleClick = (index: number, job: Job, ) => () => {
     setCurrJob(job);
     setSelected(index);
@@ -32,7 +32,7 @@ function App() {
       </header>
       <div className="jobs-container">
         <div className="filters-bar">
-          <div className="salary">Salary</div>
+          <div style={{color: "white"}}>Salary</div>
         </div>
         <div className="job-search-container">
           <div className="results-container">

@@ -67,10 +67,30 @@ function JobResult({ job, tags }: JobResultProps) {
               {" "}
               {job.type}{" "}
             </span>
+
+            <span
+              className="tag benefits"
+              style={{
+                display: tags.benefits ? "inline-block" : "none",
+              }}
+            >
+              {" "}
+              {job.benefits}{" "}
+            </span>
+
+            <span
+              className="tag skills"
+              style={{
+                display: tags.skills ? "inline-block" : "none",
+              }}
+            >
+              {" "}
+              {job.skills}{" "}
+            </span>
           </div>
           <div className="result-other"></div>
         </div>
-        <div className="result-visible">Visi</div>
+        <div className="result-visible">{" "}</div>
       </div>
     </div>
   );

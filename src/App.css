@@ -173,6 +173,16 @@ div {
   color:midnightblue;
 }
 
+.benefits {
+  background-color:rgba(240, 190, 128, 0.3);
+  color:rgb(180, 83, 3);
+}
+
+.skills {
+  background-color:rgba(218, 128, 240, 0.3);
+  color:rgb(82, 25, 112);
+}
+
 .result-other {
   /* background-color: lightcoral; */
   font-size: small;
