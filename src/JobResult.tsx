@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { Job, TagOptions } from "./models";
 
 interface JobResultProps {
@@ -11,7 +12,7 @@ function JobResult({ job, tags }: JobResultProps) {
         <div className="result-image">
           <img
             width="56"
-            src={process.env.PUBLIC_URL + job.image}
+            src={job.image}
             loading="lazy"
             height="56"
             alt="Logo"

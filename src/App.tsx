@@ -1,3 +1,4 @@
+/// <reference types="node" />
 import { useState } from 'react'
 
 import "./App.css";
