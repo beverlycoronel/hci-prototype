@@ -1,0 +1,304 @@
+@import url("https://use.typekit.net/wfw1pnu.css");
+
+#root {
+  color: black;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.linkedin-top-bar {
+  background-color: rgb(9, 102, 194);
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+}
+
+.jobs-container {
+  font-family: "source-sans-pro", sans-serif;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.filters-bar {
+  background-color: white;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(140 140 140/.2);
+  box-shadow: 0px 25px 20px -20px rgba(0,0,0,0.45);
+}
+
+.alert-bar {
+  display: flex;
+  background: rgb(9, 102, 194);
+  color: white;
+  padding: 0.8rem;
+  text-shadow: 0.1px 0.1px black;
+  max-width: 100%;
+  justify-content: space-between;
+  
+}
+
+.alert-bar-content {
+  
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.results-sort {
+  display: flex;
+  font-weight: 600;
+  
+}
+
+.result-button-sort {
+  display: flex;
+  margin: 5px;
+  padding: 7px;
+  align-self: center;
+  background-color: #0a66c2;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+
+}
+
+.dropdown {
+  align-self: center;
+}
+
+.results-number {
+  font-size: small;
+}
+.job-search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(244,242,238);
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  min-width: 35%;
+}
+
+.results-postings {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 10px
+  /* padding: 5px; */
+}
+
+.result:hover .result-title {
+  text-decoration: underline;
+}
+
+.result-image {
+  padding-top: 1rem;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.result-container {
+  /* background-color: lightblue; */
+  position: relative;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}
+
+.result-content {
+  /* background-color: lightpink; */
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+
+
+.tag {
+  display: inline-block;
+  border-radius: 0.25rem;
+  padding: 0.18rem;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  font-size: 13px/* 14px */;
+  line-height: 1.25rem/* 20px */;
+  font-weight: 600;
+}
+
+.salary {
+  background-color: rgb(0, 138, 138, 0.3);
+  color: darkgreen;
+}
+
+.experience {
+  background-color: rgb(128, 0, 0, 0.3);
+  color: maroon;
+}
+
+.remote {
+  background-color: rgb(75, 0, 130, 0.3);
+  color:indigo;
+}
+
+.type {
+  background-color:rgba(128, 162, 240, 0.3);
+  color:midnightblue;
+}
+
+.result-other {
+  /* background-color: lightcoral; */
+  font-size: small;
+}
+
+
+.result-image {
+  /* background-color: lightgreen; */
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-right: 0.6rem;
+  position: relative;
+  flex-shrink: 0;
+  box-sizing: inherit;
+}
+.result-main {
+  /* background-color: lightseagreen; */
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+.result-visible {
+  /* background-color: lightsteelblue; */
+  color: white;
+  border-bottom: 1px solid rgb(232,232,232);
+}
+
+.result-img-logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: scale-down;
+  vertical-align: bottom;
+  background-position: 50%;
+  background-size: cover;
+  object-position: center;
+}
+
+.result-title {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(9, 102, 194);
+}
+.result-company {
+  font-size: 15px;
+}
+
+.result-location {
+  border: 0.5px solid transparent;
+  display: flex;
+  font-size: 15px;
+  color: rgb(102,102,102);
+}
+
+
+.description-container {
+  border: 1px solid rgb(232,232,232);
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  max-width: 50%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  line-height: 1.5rem;
+  /* line-height: 1.3rem; */
+}
+
+.description-title {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Fira Sans,Ubuntu,Oxygen,Oxygen Sans,Cantarell,Droid Sans,Apple Color Emoji,Segoe UI Emoji,Segoe UI Emoji,Segoe UI Symbol,Lucida Grande,Helvetica,Arial,sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.description-buttons {
+  display: flex;
+}
+
+.description-apply {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  background: rgb(9, 102, 194);
+  color: white;
+  border-radius: 2rem;
+  margin-right: 10px;
+}
+
+.description-save {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 1px solid rgb(9, 102, 194);
+  border-radius: 2rem;
+  color: rgb(9, 102, 194);
+}
+
+
+
+.description-about {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.description-about-company {
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.location-tag {
+  border: 0.5px solid rgb(102,102,102);
+  border-radius: 0.25rem;
+  vertical-align: baseline;
+  margin-left: 3px;
+  padding-left: 2px;
+  padding-right: 2px;
+}

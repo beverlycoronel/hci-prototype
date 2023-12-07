@@ -1,0 +1,124 @@
+{
+    "postings":[
+       {
+          "title":"Software Development Engineer",
+          "company":"Adobe",
+          "location": "San Jose, CA",
+          "salary": "$119K/yr - $232.7K/yr",
+          "remote": "On-site",
+          "type":"Full-time",
+          "experience": "Mid-Senior",
+          "posted": "3 days ago",
+          "skills": "Computer Science, Software Development, +6 more",
+          "alumni": 61,
+          "distance": 48,
+          "image":"/logos/adobe.jpeg"
+       },
+
+       {
+        "title":"Software Engineer | Frontend",
+        "company":"Ramp",
+        "location": "New York, NY",
+        "salary": "$153K/yr - $180K/yr",
+        "remote": "Remote",
+        "type":"Full-time",
+        "experience": "Entry-level",
+        "posted": "date",
+        "skills": "number",
+        "alumni": 0,
+        "distance": 2900,
+        "image":"/logos/ramp.jpeg"
+     },
+     {
+        "title":"Software Engineer - New Grad (2024 Start)",
+          "company":"Databricks",
+          "location": "Mountain View, CA",
+          "salary": "$140K/yr - $150K/yr",
+          "remote": "On-site",
+          "type":"Full-time",
+          "experience": "Entry-level",
+          "posted": "date",
+          "skills": "number",
+          "alumni": 93,
+          "distance":40,
+          "image":"/logos/databricks.jpeg"
+
+     },
+     {
+        "title":"Software Engineer, Marketing Technology",
+          "company":"Nike",
+          "location": "Beaverton, OR",
+          "salary": "$120K/yr - $180K/yr",
+          "remote": "On-site",
+          "type":"Full-time",
+          "experience": "Entry-level",
+          "posted": "date",
+        "skills": "number",
+          "alumni": 0,
+          "distance":630,
+          "image":"/logos/nike.jpeg"
+
+     },
+     {
+        "title":"Software Engineering Intern - Backend (Summer 2024)",
+        "company":"Autodesk",
+        "location": "California, US",
+        "salary": "$41K/yr - $81.4K/yr",
+        "remote": "Remote",
+        "type": "Internship",
+        "experience": "Entry-level",
+        "posted": "date",
+        "skills": "number",
+        "alumni": 0,
+        "distance":0,
+        "image":"/logos/autodesk.jpeg"
+
+     },
+     {
+        "title":"Software Engineering Intern - Backend (Summer 2024)",
+        "company":"Autodesk",
+        "location": "California, US",
+        "salary": "$41K/yr - $81.4K/yr",
+        "remote": "Remote",
+        "type": "Internship",
+        "experience": "Entry-level",
+        "posted": "date",
+        "skills": "number",
+        "alumni": 0,
+        "distance":0,
+        "image":"/logos/adobe.jpeg"
+
+     },
+     {
+        "title":"Software Engineering Intern - Backend (Summer 2024)",
+        "company":"Autodesk",
+        "location": "California, US",
+        "salary": "$41K/yr - $81.4K/yr",
+        "remote": "Remote",
+        "type": "Internship",
+        "experience": "Entry-level",
+        "posted": "date",
+        "skills": "number",
+        "alumni": 0,
+        "distance":0,
+        "image":"/logos/adobe.jpeg"
+
+     },
+     {
+        "title":"Software Engineering Intern - Backend (Summer 2024)",
+        "company":"Autodesk",
+        "location": "California, US",
+        "salary": "$41K/yr - $81.4K/yr",
+        "remote": "Remote",
+        "type": "Internship",
+        "experience": "Entry-level",
+        "posted": "date",
+        "skills": "number",
+        "alumni": 0,
+        "distance":0,
+        "image":"/logos/adobe.jpeg"
+
+     }
+       
+    ]
+ }
