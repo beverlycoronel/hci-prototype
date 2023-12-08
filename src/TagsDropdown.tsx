@@ -9,6 +9,7 @@ interface tagsProps {
 
 function TagsDropdown({setTags} : tagsProps) {
   const [enableCheckbox, setEnableCheckbox] = useState(true);
+  const [locationCheckbox, setLocationCheckbox] = useState(false);
   const [salaryCheckBox, setSalaryCheckBox] = useState(true);
   const [experienceCheckbox, setExperienceCheckbox] = useState(false);
   const [typeCheckbox, setTypeCheckbox] = useState(false);
@@ -20,11 +21,15 @@ function TagsDropdown({setTags} : tagsProps) {
   const onChangeEnableCheckbox = () => {
     setEnableCheckbox(!enableCheckbox);
     if (!enableCheckbox) {
-      setTags((prevTags: TagOptions) => ({ ...prevTags, salary: salaryCheckBox, experience: experienceCheckbox, type: typeCheckbox, remote: remoteCheckbox, benefits: benefitsCheckbox, skills: skillsCheckbox }));
+      setTags((prevTags: TagOptions) => ({ ...prevTags, location: locationCheckbox, salary: salaryCheckBox, experience: experienceCheckbox, type: typeCheckbox, remote: remoteCheckbox, benefits: benefitsCheckbox, skills: skillsCheckbox }));
     }
     else {
-      setTags((prevTags: TagOptions) => ({ ...prevTags, salary: false, experience: false, type: false, remote: false, benefits: false, skills: false }));
+      setTags((prevTags: TagOptions) => ({ ...prevTags, location: false, salary: false, experience: false, type: false, remote: false, benefits: false, skills: false }));
     }
+  };
+  const onChangeLocationCheckbox = () => {
+    setLocationCheckbox(!locationCheckbox);
+    setTags((prevTags: TagOptions) => ({ ...prevTags, location: !prevTags.location }));
   };
   const onChangeSalaryCheckbox = () => {
     setSalaryCheckBox(!salaryCheckBox);
@@ -76,6 +81,22 @@ function TagsDropdown({setTags} : tagsProps) {
           </div>
           <label
           id="salary-id"
+            className={
+              enableCheckbox
+                ? "checkbox-container"
+                : "checkbox-container-disabled"
+            }
+          >
+            Location
+            <input
+              type="checkbox"
+              onClick={onChangeLocationCheckbox}
+              checked={locationCheckbox}
+              disabled={!enableCheckbox}
+            ></input>
+            <span className="checkmark"></span>
+          </label>
+          <label
             className={
               enableCheckbox
                 ? "checkbox-container"

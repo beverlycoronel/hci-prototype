@@ -1,5 +1,5 @@
 
-export type TagOptions = {salary: boolean, experience: boolean, type: boolean, remote: boolean, benefits: boolean, skills: boolean};
+export type TagOptions = {location: boolean, salary: boolean, experience: boolean, type: boolean, remote: boolean, benefits: boolean, skills: boolean};
 
 export interface Job {
     title: string, 

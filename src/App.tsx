@@ -13,7 +13,7 @@ function App() {
   const jobs = postings.postings as Job[];
   const [currJob, setCurrJob] = useState(jobs[0]);
   const [selected, setSelected] = useState(0);
-  const [tags, setTags] = useState<TagOptions>({salary: true, experience: false, type: false, remote: false, benefits: false, skills: false});
+  const [tags, setTags] = useState<TagOptions>({location: false, salary: true, experience: false, type: false, remote: false, benefits: false, skills: false});
   const handleClick = (index: number, job: Job, ) => () => {
     setCurrJob(job);
     setSelected(index);

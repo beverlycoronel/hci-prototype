@@ -26,7 +26,9 @@ function JobResult({ job, tags }: JobResultProps) {
             <div className="result-company"> {job.company} </div>
             <div className="result-location">
               {job.location} ·
-              <div className="location-tag"> {job.distance} mi</div>
+              <div className="location-tag" style={{
+                display: tags.location ? "inline-block" : "none",
+              }}> {job.distance} mi</div>
             </div>
           </div>
 
