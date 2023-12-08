@@ -31,7 +31,7 @@
         "alumni": 57,
         "distance": 2900,
         "image":"/logos/ramp.jpeg",
-        "benefits": "401k | Paid Family Leave | 3 others",
+        "benefits": "Medical, 401k, +1 more",
         "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
         "company2": ""
      },
@@ -48,7 +48,7 @@
           "alumni": 93,
           "distance":40,
           "image":"/logos/databricks.jpeg",
-          "benefits": "401k | Dental Insurance | 3 others",
+          "benefits": "401k, Dental Insurance, +3 more",
           "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
           "company2": ""
 
@@ -66,7 +66,7 @@
           "alumni": 201,
           "distance":630,
           "image":"/logos/nike.jpeg",
-          "benefits": "401k | Paid Family Leave | 3 others",
+          "benefits": "401k, Paid Family Leave, +3 more",
           "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
           "company2": ""
 
@@ -84,63 +84,63 @@
         "alumni": 145,
         "distance":0,
         "image":"/logos/autodesk.jpeg",
-        "benefits": "401k | Paid Family Leave | 3 others",
+        "benefits": "Paid Time Off, +1 more",
         "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
         "company2": ""
 
      },
      {
-        "title":"Software Engineering Intern - Backend (Summer 2024)",
-        "company":"Autodesk",
-        "location": "California, US",
-        "salary": "$41K/yr - $81.4K/yr",
-        "remote": "Remote",
-        "type": "Internship",
-        "experience": "Entry-level",
-        "posted": "13",
-        "skills": "Software Development, +7 more",
-        "alumni": 234,
-        "distance":0,
-        "image":"/logos/adobe.jpeg",
-        "benefits": "401k | Paid Family Leave | 3 others",
-        "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
-        "company2": ""
-
-     },
-     {
-        "title":"Software Engineering Intern - Backend (Summer 2024)",
-        "company":"Autodesk",
-        "location": "California, US",
-        "salary": "$41K/yr - $81.4K/yr",
-        "remote": "Remote",
-        "type": "Internship",
-        "experience": "Entry-level",
+        "title":"Software Engineer, AI Systems",
+        "company":"Meta",
+        "location": "Redmond, WA",
+        "salary": "$173K/yr - $241K/yr",
+        "remote": "On-site",
+        "type": "Full-time",
+        "experience": "Mid-Senior",
         "posted": "6",
         "skills": "Software Development, +7 more",
-        "alumni": 100,
-        "distance":0,
-        "image":"/logos/adobe.jpeg",
-        "benefits": "401k | Paid Family Leave | 3 others",
-        "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
-        "company2": ""
+        "alumni": 924,
+        "distance": 817,
+        "image":"/logos/meta.jpeg",
+        "benefits": "401k, Medical, +4 more",
+        "company1": "Meta builds technologies that help people connect, find communities, and grow businesses. When Facebook launched in 2004, it changed the way people connect. Apps like Messenger, Instagram and WhatsApp further empowered billions around the world. Now, Meta is moving beyond 2D screens toward immersive experiences like augmented and virtual reality to help build the next evolution in social technology. People who choose to build their careers by building with us at Meta help shape a future that will take us beyond what digital connection makes possible today—beyond the constraints of screens, the limits of distance, and even the rules of physics.",
+        "company2": "Meta is proud to be an Equal Employment Opportunity and Affirmative Action employer. We do not discriminate based upon race, religion, color, national origin, sex (including pregnancy, childbirth, or related medical conditions), sexual orientation, gender, gender identity, gender expression, transgender status, sexual stereotypes, age, status as a protected veteran, status as an individual with a disability, or other applicable legally protected characteristics. We also consider qualified applicants with criminal histories, consistent with applicable federal, state and local law. Meta participates in the E-Verify program in certain locations, as required by law. Please note that Meta may leverage artificial intelligence and machine learning technologies in connection with applications for employment."
 
      },
      {
-        "title":"Software Engineering Intern - Backend (Summer 2024)",
-        "company":"Autodesk",
-        "location": "California, US",
-        "salary": "$41K/yr - $81.4K/yr",
-        "remote": "Remote",
-        "type": "Internship",
-        "experience": "Entry-level",
-        "posted": "9",
+        "title":"Software Engineer, Mobile Security",
+        "company":"TikTok",
+        "location": "San Jose, CA",
+        "salary": "$145K/yr - $250K/yr",
+        "remote": "On-site",
+        "type": "Full-time",
+        "experience": "Mid-Senior",
+        "posted": "14",
         "skills": "Software Development, +7 more",
-        "alumni": 145,
-        "distance":0,
-        "image":"/logos/adobe.jpeg",
-        "benefits": "401k | Paid Family Leave | 3 others",
-        "company1": "Changing the world through digital experiences is what Adobe’s all about. We give everyone—from emerging artists to global brands—everything they need to design and deliver exceptional digital experiences! We’re passionate about empowering people to create beautiful and powerful images, videos, and apps, and transform how companies interact with customers across every screen.",
-        "company2": ""
+        "alumni": 141,
+        "distance":48,
+        "image":"/logos/tiktok.jpeg",
+        "benefits": "Medical, 401k, +1 more",
+        "company1": "TikTok is the leading destination for short-form mobile video. Our mission is to inspire creativity and bring joy. TikTok has global offices including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore, Jakarta, Seoul and Tokyo.",
+        "company2": "Creation is the core of TikTok's purpose. Our platform is built to help imaginations thrive. This is doubly true of the teams that make TikTok possible. Together, we inspire creativity and bring joy - a mission we all believe in and aim towards achieving every day. To us, every challenge, no matter how difficult, is an opportunity; to learn, to innovate, and to grow as one team. Status quo? Never. Courage? Always. At TikTok, we create together and grow together. That's how we drive impact - for ourselves, our company, and the communities we serve. Join us."
+
+     },
+     {
+        "title":"Software Engineer Silicon Software Product",
+        "company":"Google",
+        "location": "San Diego, CA",
+        "salary": "$133K/yr - $194K/yr",
+        "remote": "On-site",
+        "type": "Full-time",
+        "experience": "Entry-level",
+        "posted": "7",
+        "skills": "Software Development, +7 more",
+        "alumni": 2215,
+        "distance":817,
+        "image":"/logos/google.jpeg",
+        "benefits": "401k, Paid Family Leave, +1 more",
+        "company1": "Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.",
+        "company2": "Google's mission is to organize the world's information and make it universally accessible and useful. Our team combines the best of Google AI, Software, and Hardware to create radically helpful experiences. We research, design, and develop new technologies and hardware to make computing faster, seamless, and more powerful. We aim to make people's lives better through technology."
 
      }
        

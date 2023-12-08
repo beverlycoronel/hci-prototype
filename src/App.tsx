@@ -17,14 +17,7 @@ function App() {
   const handleClick = (index: number, job: Job, ) => () => {
     setCurrJob(job);
     setSelected(index);
-    console.log(tags)
   };
-
-  // const updateTags = (tags: TagOptions) => {
-  //   setTags(tags);
-  // }
-  
-
   return (
     <>
       <header className="linkedin-top-bar">
@@ -32,7 +25,7 @@ function App() {
       </header>
       <div className="jobs-container">
         <div className="filters-bar">
-          <div style={{color: "white"}}>Salary</div>
+          <div style={{color: "white"}}>sal</div>
         </div>
         <div className="job-search-container">
           <div className="results-container">
@@ -58,10 +51,7 @@ function App() {
               ))}
             </div>
           </div>
-          
             <JobDescription job={currJob}></JobDescription>
-          
-          
         </div>
       </div>
     </>

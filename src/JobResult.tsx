@@ -39,6 +39,7 @@ function JobResult({ job, tags }: JobResultProps) {
             >
               {" "}
               {job.salary}{" "}
+              {/* <span className="tooltiptext"> tooltip test </span> */}
             </span>
             <span
               className="tag experience"
